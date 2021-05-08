@@ -1,0 +1,19 @@
+package com.devsuperior.dsvendas.entities;
+
+public class Saller {
+
+	private Long id;
+	private String name;
+	
+	public Saller() {}
+	
+	public Saller(Long id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+	
+	
+	
+}
