@@ -37,7 +37,7 @@ public class SaleController {
 	}
 	
 	@GetMapping("success-by-saller")
-	public ResponseEntity<List<SaleSuccessDTO>> successGroupBySaller() {
+	public ResponseEntity<List<DTO>> successGroupBySaller() {
 		List<SaleSuccessDTO> list = service.successGroupBySaller();
 		return ResponseEntity.ok(list);
 	}
